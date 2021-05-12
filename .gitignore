@@ -1,0 +1,34 @@
+src/*.exe
+src/bencoin
+src/bencoind
+src/test_bencoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.bencoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+bencoin-qt
+Bencoin-Qt.app
+
+# Unit-tests
+Makefile.test
+bencoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
